@@ -27,7 +27,7 @@ for i in lines:
   data=' '.join(lines)
 
 #replace unnecessary with space
-data=data.replace('\n','').replace('\r','').replace('\ufeff','').replace('"','')
+data=data.replace('\n','').replace('\r','').replace('\ufeff','').replace('"','').replace('-','')
 
 #remove unnecessary spaces
 data=data.split()
@@ -124,51 +124,4 @@ while(True):
     except Exception as e:
       print("Error occured:",e)
       continue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
